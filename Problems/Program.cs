@@ -5,7 +5,7 @@ namespace Problems
     public class Program
     {
 
-        public static string Prefix(string input)
+        public string Prefix(string input)
         {
             if(input == null)
             {
@@ -29,8 +29,9 @@ namespace Problems
 
         static void Main(string[] args)
         {
+            Program p = new Program();
             string test = "what ... did you say??";
-            Console.WriteLine(Prefix(test));
+            Console.WriteLine(p.Prefix(test));
         }
     }
 
