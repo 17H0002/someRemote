@@ -12,8 +12,7 @@ namespace Problems
                 return null;
             }
 
-            else
-            {
+
             int x = input.Length;
 
             string[] words = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
@@ -22,7 +21,7 @@ namespace Problems
 
             string ans = $"{x},{words.Length}:{input}";
             return ans;
-            }
+            
 
 
         }
